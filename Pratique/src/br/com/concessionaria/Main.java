@@ -58,15 +58,15 @@ public class Main {
 		oficina.adicionarPeca(peca09);
 		oficina.adicionarPeca(peca10);
 
-//		// Declaração de 3 Objetos da Classe Mecânicos.
-//		Mecanico mecanico01 = new Mecanico("FABÍOLA", 1, 1);
-//		Mecanico mecanico02 = new Mecanico("JOSÉ", 2, 2);
-//		Mecanico mecanico03 = new Mecanico("MARIO", 3, 3);
-//
-//		// Inclusão dos Mecânicos na Oficina.
-//		oficina.adicionarMecanico(mecanico01);
-//		oficina.adicionarMecanico(mecanico02);
-//		oficina.adicionarMecanico(mecanico03);
+		// Declaração de 3 Objetos da Classe Mecânicos.
+		Mecanico mecanico01 = new Mecanico("FABÍOLA", 1, 1);
+		Mecanico mecanico02 = new Mecanico("JOSÉ", 2, 2);
+		Mecanico mecanico03 = new Mecanico("MARIO", 3, 3);
+
+		// Inclusão dos Mecânicos na Oficina.
+		oficina.adicionarMecanico(mecanico01);
+		oficina.adicionarMecanico(mecanico02);
+		oficina.adicionarMecanico(mecanico03);
 
 		// Implementação do Método valorTotalPecas().
 		System.out.println("--------------------------");
